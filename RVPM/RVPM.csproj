@@ -420,12 +420,6 @@
     <None Include="Resources\111-removebg-preview %281%292.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\1222-removebg-preview.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\1222-removebg-preview %281%29.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\1333-removebg-preview %281%29.png" />
   </ItemGroup>
   <ItemGroup>
@@ -459,9 +453,6 @@
     <None Include="Resources\222-removebg-preview %281%29.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\1212-removebg-preview.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\33333.png" />
   </ItemGroup>
   <ItemGroup>
@@ -490,9 +481,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\pdficon.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\pdficon2.jpg" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\docicon2.png" />
