@@ -414,12 +414,6 @@
     <None Include="Resources\1111-removebg-preview.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\111-removebg-preview %281%291.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\111-removebg-preview %281%292.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\1333-removebg-preview %281%29.png" />
   </ItemGroup>
   <ItemGroup>
