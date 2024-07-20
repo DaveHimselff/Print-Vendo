@@ -265,7 +265,7 @@ private void pictureBox1_Click(object sender, EventArgs e)      {
             Thread.Sleep(milliseconds);
 
             // Show Form1 again
-            Form1 frm1 = new Form1();
+            print5 frm1 = new print5();
             frm1.Show();
             this.Hide();
         }
@@ -334,7 +334,7 @@ private void pictureBox1_Click(object sender, EventArgs e)      {
                         pdffile.Print();
                       
                     }
-                    Form1 frm1 = new Form1();
+                    print5 frm1 = new print5();
                     frm1.Show();
                            
                             this.Hide();

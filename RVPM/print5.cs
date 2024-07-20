@@ -19,14 +19,24 @@ namespace RVPM
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-            Form1 frm1 = new Form1();
-            frm1.Show();
-            this.Hide();
+
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void pictureBox2_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox2_Click_2(object sender, EventArgs e)
+        {
+            Form1 frm1 = new Form1();
+            frm1.Show();
+            this.Hide();
         }
     }
 }
