@@ -38,5 +38,12 @@ namespace RVPM
             frm1.Show();
             this.Hide();
         }
+
+        private void print5_Load(object sender, EventArgs e)
+        {
+            Form1 frm1 = new Form1();
+            frm1.Show();
+            this.Hide();
+        }
     }
 }
