@@ -88,7 +88,7 @@ namespace RVPM
             this.goButton.Name = "goButton";
             this.goButton.Size = new System.Drawing.Size(1315, 161);
             this.goButton.TabIndex = 9;
-            this.goButton.Text = "Next";
+            this.goButton.Text = "Load File";
             this.goButton.UseVisualStyleBackColor = false;
             this.goButton.Click += new System.EventHandler(this.goButton_Click);
             // 
