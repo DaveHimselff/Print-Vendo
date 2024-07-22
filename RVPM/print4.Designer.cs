@@ -85,7 +85,7 @@ namespace RVPM
             Admin.AutoSize = true;
             Admin.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             Admin.ForeColor = System.Drawing.Color.Black;
-            Admin.Location = new System.Drawing.Point(609, 101);
+            Admin.Location = new System.Drawing.Point(808, 100);
             Admin.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             Admin.Name = "Admin";
             Admin.Size = new System.Drawing.Size(371, 42);
@@ -171,7 +171,7 @@ namespace RVPM
             label7.BackColor = System.Drawing.SystemColors.Window;
             label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             label7.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            label7.Location = new System.Drawing.Point(819, 191);
+            label7.Location = new System.Drawing.Point(1059, 190);
             label7.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             label7.Name = "label7";
             label7.Size = new System.Drawing.Size(188, 46);
@@ -184,7 +184,7 @@ namespace RVPM
             label8.BackColor = System.Drawing.SystemColors.Window;
             label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             label8.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            label8.Location = new System.Drawing.Point(819, 492);
+            label8.Location = new System.Drawing.Point(1084, 491);
             label8.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             label8.Name = "label8";
             label8.Size = new System.Drawing.Size(354, 46);
@@ -197,7 +197,7 @@ namespace RVPM
             label11.BackColor = System.Drawing.SystemColors.Window;
             label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             label11.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            label11.Location = new System.Drawing.Point(1271, 372);
+            label11.Location = new System.Drawing.Point(1447, 373);
             label11.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             label11.Name = "label11";
             label11.Size = new System.Drawing.Size(76, 36);
@@ -211,7 +211,7 @@ namespace RVPM
             label12.BackColor = System.Drawing.SystemColors.Window;
             label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             label12.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            label12.Location = new System.Drawing.Point(1271, 676);
+            label12.Location = new System.Drawing.Point(1447, 677);
             label12.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             label12.Name = "label12";
             label12.Size = new System.Drawing.Size(76, 36);
@@ -238,11 +238,11 @@ namespace RVPM
             this.groupBox1.Controls.Add(label4);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.ForeColor = System.Drawing.Color.Black;
-            this.groupBox1.Location = new System.Drawing.Point(335, 165);
+            this.groupBox1.Location = new System.Drawing.Point(360, 165);
             this.groupBox1.Margin = new System.Windows.Forms.Padding(5);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Padding = new System.Windows.Forms.Padding(5);
-            this.groupBox1.Size = new System.Drawing.Size(433, 578);
+            this.groupBox1.Size = new System.Drawing.Size(571, 578);
             this.groupBox1.TabIndex = 4;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "DOCUMENT";
@@ -372,7 +372,7 @@ namespace RVPM
             this.label9.AutoSize = true;
             this.label9.BackColor = System.Drawing.SystemColors.Window;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(865, 329);
+            this.label9.Location = new System.Drawing.Point(1130, 328);
             this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(197, 91);
@@ -383,7 +383,7 @@ namespace RVPM
             // print
             // 
             this.print.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.print.Location = new System.Drawing.Point(1219, 84);
+            this.print.Location = new System.Drawing.Point(1375, 67);
             this.print.Margin = new System.Windows.Forms.Padding(4);
             this.print.Name = "print";
             this.print.Size = new System.Drawing.Size(273, 75);
@@ -395,7 +395,7 @@ namespace RVPM
             // pictureBox4
             // 
             this.pictureBox4.BackColor = System.Drawing.SystemColors.Window;
-            this.pictureBox4.Location = new System.Drawing.Point(807, 478);
+            this.pictureBox4.Location = new System.Drawing.Point(1072, 477);
             this.pictureBox4.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(576, 266);
@@ -405,7 +405,7 @@ namespace RVPM
             // pictureBox3
             // 
             this.pictureBox3.BackColor = System.Drawing.SystemColors.Window;
-            this.pictureBox3.Location = new System.Drawing.Point(807, 175);
+            this.pictureBox3.Location = new System.Drawing.Point(1072, 174);
             this.pictureBox3.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(576, 266);
@@ -432,7 +432,7 @@ namespace RVPM
             this.label10.AutoSize = true;
             this.label10.BackColor = System.Drawing.SystemColors.MenuBar;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(865, 628);
+            this.label10.Location = new System.Drawing.Point(1130, 627);
             this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(197, 91);
