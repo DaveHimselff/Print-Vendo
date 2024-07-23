@@ -103,26 +103,6 @@ namespace RVPM.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap _13_removebg_preview {
-            get {
-                object obj = ResourceManager.GetObject("13-removebg-preview", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap _13_removebg_preview__1_ {
-            get {
-                object obj = ResourceManager.GetObject("13-removebg-preview (1)", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap _1333_removebg_preview__1_ {
             get {
                 object obj = ResourceManager.GetObject("1333-removebg-preview (1)", resourceCulture);
@@ -136,16 +116,6 @@ namespace RVPM.Properties {
         internal static System.Drawing.Bitmap _1333_removebg_preview__2_ {
             get {
                 object obj = ResourceManager.GetObject("1333-removebg-preview (2)", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap _1444_removebg_preview__1_ {
-            get {
-                object obj = ResourceManager.GetObject("1444-removebg-preview (1)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -193,16 +163,6 @@ namespace RVPM.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap _1555667 {
-            get {
-                object obj = ResourceManager.GetObject("1555667", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap _155567 {
             get {
                 object obj = ResourceManager.GetObject("155567", resourceCulture);
@@ -213,69 +173,9 @@ namespace RVPM.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap _222_removebg_preview {
-            get {
-                object obj = ResourceManager.GetObject("222-removebg-preview", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap _222_removebg_preview__1_ {
-            get {
-                object obj = ResourceManager.GetObject("222-removebg-preview (1)", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap _33333 {
             get {
                 object obj = ResourceManager.GetObject("33333", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap _417608438_1565147867664892_6548770222148993890_n {
-            get {
-                object obj = ResourceManager.GetObject("417608438_1565147867664892_6548770222148993890_n", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap _417608438_1565147867664892_6548770222148993890_n1 {
-            get {
-                object obj = ResourceManager.GetObject("417608438_1565147867664892_6548770222148993890_n1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap _417608438_1565147867664892_6548770222148993890_n2 {
-            get {
-                object obj = ResourceManager.GetObject("417608438_1565147867664892_6548770222148993890_n2", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap _428001220_1100026821234757_1875306159212804013_n {
-            get {
-                object obj = ResourceManager.GetObject("428001220_1100026821234757_1875306159212804013_n", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -346,16 +246,6 @@ namespace RVPM.Properties {
         internal static System.Drawing.Bitmap docicon2 {
             get {
                 object obj = ResourceManager.GetObject("docicon2", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap grad {
-            get {
-                object obj = ResourceManager.GetObject("grad", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

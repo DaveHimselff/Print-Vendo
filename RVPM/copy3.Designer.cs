@@ -51,7 +51,6 @@ namespace RVPM
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::RVPM.Properties.Resources._222_removebg_preview__1_;
             this.pictureBox1.Location = new System.Drawing.Point(285, 98);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";

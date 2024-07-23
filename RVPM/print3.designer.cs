@@ -138,8 +138,8 @@ namespace RVPM
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.groupBox6);
-            this.groupBox1.Controls.Add(this.pictureBox3);
             this.groupBox1.Controls.Add(this.button2);
+            this.groupBox1.Controls.Add(this.pictureBox3);
             this.groupBox1.Controls.Add(this.pictureBox2);
             this.groupBox1.ForeColor = System.Drawing.Color.Black;
             this.groupBox1.Location = new System.Drawing.Point(91, 76);
@@ -157,7 +157,7 @@ namespace RVPM
             this.groupBox6.Controls.Add(this.radioButton8);
             this.groupBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox6.ForeColor = System.Drawing.Color.Black;
-            this.groupBox6.Location = new System.Drawing.Point(544, 289);
+            this.groupBox6.Location = new System.Drawing.Point(528, 348);
             this.groupBox6.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox6.Name = "groupBox6";
             this.groupBox6.Padding = new System.Windows.Forms.Padding(4);
@@ -196,7 +196,7 @@ namespace RVPM
             // pictureBox3
             // 
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(29, 134);
+            this.pictureBox3.Location = new System.Drawing.Point(33, 58);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(559, 528);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -208,7 +208,7 @@ namespace RVPM
             // 
             this.button2.BackColor = System.Drawing.SystemColors.MenuHighlight;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(194, 42);
+            this.button2.Location = new System.Drawing.Point(170, 599);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(267, 75);
             this.button2.TabIndex = 11;
@@ -220,7 +220,7 @@ namespace RVPM
             // 
             this.pictureBox2.BackColor = System.Drawing.SystemColors.MenuBar;
             this.pictureBox2.Image = global::RVPM.Properties.Resources.docicon;
-            this.pictureBox2.Location = new System.Drawing.Point(29, 134);
+            this.pictureBox2.Location = new System.Drawing.Point(33, 58);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(559, 528);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;

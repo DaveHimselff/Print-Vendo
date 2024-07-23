@@ -396,15 +396,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\grad.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\13-removebg-preview.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\13-removebg-preview %281%29.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\111-removebg-preview.png" />
   </ItemGroup>
   <ItemGroup>
@@ -420,9 +411,6 @@
     <None Include="Resources\1333-removebg-preview %282%29.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\1444-removebg-preview %281%29.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\1444-removebg-preview %282%29.png" />
   </ItemGroup>
   <ItemGroup>
@@ -436,15 +424,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\155567.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\1555667.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\222-removebg-preview.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\222-removebg-preview %281%29.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\33333.png" />
@@ -510,10 +489,6 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <DependentUpon>Database1.mdf</DependentUpon>
     </Content>
-    <None Include="Resources\428001220_1100026821234757_1875306159212804013_n.png" />
-    <None Include="Resources\417608438_1565147867664892_6548770222148993890_n1.png" />
-    <None Include="Resources\417608438_1565147867664892_6548770222148993890_n.png" />
-    <None Include="Resources\417608438_1565147867664892_6548770222148993890_n.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

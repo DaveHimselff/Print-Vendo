@@ -29,6 +29,7 @@ namespace RVPM
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SETTINGS_LOGIN));
             this.label1 = new System.Windows.Forms.Label();
             this.Username = new System.Windows.Forms.TextBox();
             this.password = new System.Windows.Forms.TextBox();
@@ -58,11 +59,11 @@ namespace RVPM
             // 
             // Username
             // 
-            this.Username.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Username.Font = new System.Drawing.Font("Microsoft Tai Le", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Username.Location = new System.Drawing.Point(632, 475);
-            this.Username.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Username.Margin = new System.Windows.Forms.Padding(4);
             this.Username.Name = "Username";
-            this.Username.Size = new System.Drawing.Size(516, 46);
+            this.Username.Size = new System.Drawing.Size(516, 49);
             this.Username.TabIndex = 2;
             this.Username.Text = "Username";
             this.Username.Click += new System.EventHandler(this.Username_Click);
@@ -70,12 +71,12 @@ namespace RVPM
             // 
             // password
             // 
-            this.password.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.password.Font = new System.Drawing.Font("Microsoft Tai Le", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.password.Location = new System.Drawing.Point(632, 553);
-            this.password.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.password.Margin = new System.Windows.Forms.Padding(4);
             this.password.Name = "password";
             this.password.PasswordChar = '*';
-            this.password.Size = new System.Drawing.Size(516, 46);
+            this.password.Size = new System.Drawing.Size(516, 49);
             this.password.TabIndex = 3;
             this.password.Text = "Password";
             this.password.UseSystemPasswordChar = true;
@@ -87,7 +88,7 @@ namespace RVPM
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button1.Location = new System.Drawing.Point(687, 652);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(349, 57);
             this.button1.TabIndex = 6;
@@ -97,9 +98,9 @@ namespace RVPM
             // 
             // pictureBox4
             // 
-            this.pictureBox4.Image = global::RVPM.Properties.Resources._222_removebg_preview__1_;
+            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
             this.pictureBox4.Location = new System.Drawing.Point(201, 105);
-            this.pictureBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(72, 65);
             this.pictureBox4.TabIndex = 7;
@@ -108,9 +109,9 @@ namespace RVPM
             // 
             // pictureBox3
             // 
-            this.pictureBox3.Image = global::RVPM.Properties.Resources._155567;
+            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
             this.pictureBox3.Location = new System.Drawing.Point(575, 554);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(60, 46);
             this.pictureBox3.TabIndex = 5;
@@ -118,19 +119,19 @@ namespace RVPM
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Image = global::RVPM.Properties.Resources._1555667;
-            this.pictureBox2.Location = new System.Drawing.Point(575, 476);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(575, 475);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(60, 46);
+            this.pictureBox2.Size = new System.Drawing.Size(48, 48);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 4;
             this.pictureBox2.TabStop = false;
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::RVPM.Properties.Resources._1444_removebg_preview__3_;
             this.pictureBox1.Location = new System.Drawing.Point(757, 105);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(279, 220);
             this.pictureBox1.TabIndex = 1;
@@ -151,7 +152,7 @@ namespace RVPM
             this.Controls.Add(this.Username);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "SETTINGS_LOGIN";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Load += new System.EventHandler(this.SETTINGS_LOGIN_Load);
