@@ -425,6 +425,7 @@ namespace RVPM
             // 
             // serialPort1
             // 
+            this.serialPort1.PortName = "COM4";
             this.serialPort1.DataReceived += new System.IO.Ports.SerialDataReceivedEventHandler(this.serialPort1_DataReceived);
             // 
             // label10
@@ -492,7 +493,7 @@ namespace RVPM
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.PictureBox pictureBox5;
-        private System.IO.Ports.SerialPort serialPort1;
+        //private System.IO.Ports.SerialPort serialPort1;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.PictureBox pictureBox6;
     }

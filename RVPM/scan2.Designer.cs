@@ -170,7 +170,7 @@ namespace RVPM
             // 
             this.pictureBox2.BackColor = System.Drawing.SystemColors.Window;
             this.pictureBox2.Location = new System.Drawing.Point(903, 453);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(576, 266);
             this.pictureBox2.TabIndex = 14;
@@ -180,7 +180,7 @@ namespace RVPM
             // 
             this.pictureBox3.BackColor = System.Drawing.SystemColors.Window;
             this.pictureBox3.Location = new System.Drawing.Point(903, 159);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(576, 266);
             this.pictureBox3.TabIndex = 7;
@@ -190,7 +190,7 @@ namespace RVPM
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(268, 76);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(5);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(68, 57);
             this.pictureBox1.TabIndex = 5;
@@ -209,9 +209,9 @@ namespace RVPM
             this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.ForeColor = System.Drawing.Color.Black;
             this.groupBox2.Location = new System.Drawing.Point(381, 159);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(5);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(5);
             this.groupBox2.Size = new System.Drawing.Size(365, 560);
             this.groupBox2.TabIndex = 18;
             this.groupBox2.TabStop = false;
@@ -259,7 +259,7 @@ namespace RVPM
             // 
             this.pictureBox4.BackColor = System.Drawing.SystemColors.Window;
             this.pictureBox4.Location = new System.Drawing.Point(47, 27);
-            this.pictureBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(260, 282);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -269,7 +269,7 @@ namespace RVPM
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(1403, 101);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(129, 28);
             this.button1.TabIndex = 19;
@@ -292,6 +292,7 @@ namespace RVPM
             // 
             // serialPort1
             // 
+            this.serialPort1.PortName = "COM4";
             this.serialPort1.DataReceived += new System.IO.Ports.SerialDataReceivedEventHandler(this.serialPort1_DataReceived);
             // 
             // label9
@@ -325,7 +326,7 @@ namespace RVPM
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(Admin);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "scan2";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Load += new System.EventHandler(this.scan2_Load);

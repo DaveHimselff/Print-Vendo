@@ -123,8 +123,8 @@ namespace RVPM
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.radioButton5);
             this.groupBox2.Controls.Add(this.radioButton1);
+            this.groupBox2.Controls.Add(this.radioButton2);
             this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.ForeColor = System.Drawing.Color.Black;
             this.groupBox2.Location = new System.Drawing.Point(132, 79);
@@ -142,7 +142,7 @@ namespace RVPM
             this.radioButton5.AutoSize = true;
             this.radioButton5.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton5.ForeColor = System.Drawing.Color.Black;
-            this.radioButton5.Location = new System.Drawing.Point(290, 52);
+            this.radioButton5.Location = new System.Drawing.Point(645, 267);
             this.radioButton5.Margin = new System.Windows.Forms.Padding(4);
             this.radioButton5.Name = "radioButton5";
             this.radioButton5.Size = new System.Drawing.Size(119, 33);
@@ -150,6 +150,7 @@ namespace RVPM
             this.radioButton5.TabStop = true;
             this.radioButton5.Text = "SHORT";
             this.radioButton5.UseVisualStyleBackColor = true;
+            this.radioButton5.Visible = false;
             // 
             // radioButton1
             // 
@@ -169,17 +170,16 @@ namespace RVPM
             // radioButton2
             // 
             this.radioButton2.AutoSize = true;
-            this.radioButton2.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton2.ForeColor = System.Drawing.Color.Black;
-            this.radioButton2.Location = new System.Drawing.Point(782, -5);
+            this.radioButton2.Location = new System.Drawing.Point(299, 52);
             this.radioButton2.Margin = new System.Windows.Forms.Padding(4);
             this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(74, 40);
+            this.radioButton2.Size = new System.Drawing.Size(119, 33);
             this.radioButton2.TabIndex = 8;
             this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "A4";
+            this.radioButton2.Text = "SHORT";
             this.radioButton2.UseVisualStyleBackColor = true;
-            this.radioButton2.Visible = false;
             this.radioButton2.CheckedChanged += new System.EventHandler(this.radioButton2_CheckedChanged);
             // 
             // groupBox3
@@ -403,6 +403,7 @@ namespace RVPM
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.radioButton5);
             this.groupBox1.Controls.Add(label3);
             this.groupBox1.Controls.Add(this.pictureBox3);
             this.groupBox1.Controls.Add(this.pictureBox2);
@@ -456,7 +457,6 @@ namespace RVPM
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.radioButton2);
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "scan1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
